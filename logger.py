@@ -12,6 +12,7 @@ class Logger(object):
         The simulation class should use this method immediately to log the specific
         parameters of the simulation as the first line of the file.
         '''
+        #Pulled this from old code
         dividors = "==========================="
         data = "{}\nVirus name: {}\nReproduction number: {}\nVaccination percentage: {}\nMortality rate: {}\nPopulation number: {}\n{}\n".format(
             dividors,                                                                                           virus_name, basic_repro_num, vacc_percentage, mortality_rate, pop_size, dividors)
